@@ -1,0 +1,93 @@
+               Syntax
+
+    array.map(function(currentValue, index, arr), thisValue)
+  
+    Parameters
+
+    Parameter	Description
+
+    Function()	Required.
+A function to be run for each array element.
+
+currentValue	Required.
+The value of the current element.
+
+index	Optional.
+The index of the current element.
+
+arr	Optional.
+The array of the current element.
+thisValue	Optional.
+
+Default value undefined.
+A value passed to the function to be used as its this value.
+
+Return Value
+Type	Description
+An array	The results of a function for each array element.
+
+                REDUCE
+
+    Syntax
+        
+    array.reduce(function(total, currentValue, currentIndex, arr), initialValue)
+
+    Parameters
+
+    Parameter	Description
+
+    Function()	Required.
+A function to be run for each array element.    
+
+    total	Required.                                                   
+The initialValue, or the value previously returned in the last invocation of the callback, or the current element if no initialValue was supplied (see below).
+
+    currentValue	Required.
+The value of the current element.
+
+    currentIndex	Optional.
+The index of the current element.
+
+    arr	Optional.
+The array of the current element.
+
+    initialValue	Optional.
+A value to be passed to the function as the initial value.
+
+    Return Value
+Type	Description
+Any value	The value that results from the reduction.
+
+                FILTER
+
+    Syntax
+
+    array.filter(function(currentValue, index, arr), thisValue)
+
+    Parameters
+
+    Parameter	Description
+
+    Function()	Required.
+
+A function to be run for each array element.        
+
+    currentValue	Required.
+The value of the current element.
+
+    index	Optional.
+The index of the current element.
+
+    arr	Optional.
+The array of the current element.
+
+    thisValue	Optional.
+Default value undefined.
+
+A value passed to the function to be used as its this value.
+
+    Return Value
+Type	Description
+An array	A new array with the elements that pass the test. If no elements pass the test
+an empty array will be returned.
+
